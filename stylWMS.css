@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+
+div.map {
+    margin: 0px;
+    height: calc((2*100vh)/3);
+    width: 100%;
+  }
+
+div.xml {
+  height: calc((1*100vh)/3);
+}
+
+
+ button.capabilities_vzhlad {
+    background-color: white; 
+    color: grey; 
+    border: 2px solid black;
+    padding: 5px;
+    margin-left:15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 15%;
+  }
+
+  button.capabilities_vzhlad:hover {
+    background-color: #e7e7e7;
+    color: black;
+  }
+
+pre.log-container {
+    width: 100%;
+    overflow: auto;
+    height: 85%;
+    margin:0px;
+}
+ 
